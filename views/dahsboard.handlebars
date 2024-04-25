@@ -1,0 +1,18 @@
+{{navbar}}
+
+<h2>Dashboard</h2>
+
+<!-- Display list of user's blog posts -->
+{{#each userPosts}}
+    <div>
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <!-- Link to edit or delete post -->
+        <a href="/post/{{id}}/edit">Edit</a> | <a href="/post/{{id}}/delete">Delete</a>
+    </div>
+{{/each}}
+
+<!-- Link to create new post -->
+<a href="/post/new">Create New Post</a>
+
+{{footer}}
