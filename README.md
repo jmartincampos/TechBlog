@@ -19,7 +19,7 @@ body-parser: Middleware for parsing incoming request bodies.
 dotenv: Module for loading environment variables from a .env file.
 
 ## Installation
-1. clone repo:
+1. clone repo: https://github.com/jmartincampos/TechBlog.git
 2. npm install
 3. set up environment variables:
   DB_NAME=your_database_name
